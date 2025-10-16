@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
-/* import Home from "./components/Home"; */
+import Home from "./pages/Home"; 
 import Register from "./pages/RegisterPage";
 import PersonalInfo from "./components/PersonalInfo";
 import ContactInfo from "./components/ContactInfo";
@@ -16,7 +16,7 @@ function App() {
 
         </nav>
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Home />} />
             <Route path="/register" element={<Register />}>
             <Route path="personal" element={<PersonalInfo />} />
             <Route path="contact" element={<ContactInfo />} />
