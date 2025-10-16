@@ -23,8 +23,7 @@ const Confirmation = () => {
       >
         <h3>Información Personal</h3>
         <p>
-          <strong>Nombre:</strong> {registrationData.firstName}
-          {registrationData.lastName}
+          <strong>Nombre:</strong> {registrationData.firstName} {registrationData.lastName}
         </p>
         <p>
           <strong>Fecha de Nacimiento:</strong> {registrationData.dateOfBirth}
